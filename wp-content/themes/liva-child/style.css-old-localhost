@@ -1,0 +1,567 @@
+/*
+Theme Name: Liva Wordpress Child Theme
+Theme URI: http://themeforest.net/item/liva-retina-ready-multipurpose-wordpress-theme/7299468
+Author URI:http://themeforest.net/user/JoiThemes
+Description: Clean Corporate Theme
+Author: Joi Team
+Version: 1.2
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: liva
+
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600italic,700,800);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,900);
+
+/*font-family: 'Century Gothic', sans-serif;*/
+body{
+	background-color: #231f20 !important;
+}
+
+p {
+    font: 13px/22px Century Gothic;
+    margin-bottom: 20px;
+}
+
+#trueHeader{
+	background: none;
+	background-color: #f5f5f5;
+	border-bottom: 0;
+	height: 80px;
+}
+
+#trueHeader .one_fourth{
+	margin-right: 0;
+}
+
+#trueHeader ul.menu{
+	float: left;
+}
+#trueHeader .menu li.current_page_item a, #trueHeader .menu li a:hover{
+	background: url(images/plus.png) left center no-repeat;
+	color: #000;
+	text-decoration: underline;
+}
+#trueHeader .menu li a{
+	background: none;
+	text-transform: lowercase;
+	color: #231f20;
+	padding-left: 16px;
+	background: url(images/plus.png) left center no-repeat;
+}
+
+#trueHeader .menu li a, #trueHeader .menu li ul li a{
+	font-size: 14px;
+}
+
+#trueHeader .last p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #231f20;
+}
+
+#trueHeader .last{
+	margin-top: 15px;
+	width: 17%;
+	padding-left: 40px;
+	background: url(images/icon_phone.png) left 7px no-repeat;
+}
+
+
+
+h2{
+	font-family: Lato, sans-serif;
+	color: #211f1f;
+	font-weight: 900;
+	line-height: 30px;
+	font-size: 23px;
+}
+
+h4{
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	color: #221f1f;
+	font-size: 19px;
+	line-height: 25px;
+}
+h5{
+	font-family: Arial;
+	color: #666666;
+	margin: 30px 100px 0 100px;
+}
+
+
+#home_block1, #home_block2{
+	background: #f5f5f5;
+}
+
+#home_block2{
+	padding-top: 60px;
+}
+#home_block2 .aligncenter{
+	margin: 0 auto;
+}
+
+#home_block2 p{
+	color: #6b6b6b;
+}
+
+#home_block3{
+	background: url(images/bg_pre_and_post_contract.png) left bottom no-repeat;
+}
+
+#home_block3 h5{
+	margin: 20px 0;
+}
+
+#home_block3_inside{
+	padding-left: 530px;
+	margin-top: 30px;
+}
+
+#home_block3 h4{
+	background: url(images/bullet_plus.png) left center no-repeat;
+	padding-left: 30px;
+	color: #111111;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+#home_block3 a{
+	color: #0154a6;
+	font-weight: 600;
+	background: url(images/blue_arrow.png) right center no-repeat;
+	padding-right: 10px;
+}
+#home_block3 .view_all_yellow{
+	display: block;
+	width: 140px;
+	float: right;
+	padding: 5px 25px;
+	background: #fed503 url(images/yellow_arrow.png) 160px center no-repeat;
+	color: #231f20;
+	font-weight: 600;
+}
+
+#home_block4 .more_details_yellow{
+	background: url(images/yellow_arrow_small.png) right center no-repeat;
+	padding-right: 15px;
+}
+
+#home_block4{
+	background:url(images/bg_testimonials.png) left top no-repeat;
+	background-size: 100% auto;
+	display: block;
+	height: 270px;
+	padding: 40px 0;
+}
+
+#home_block4 p{
+	color: #dcdcdc;
+	font-size: 14px;
+	padding: 0 50px;
+	text-align: center;
+}
+
+#home_block4 p em{
+	font-size: 13px;
+	text-align: center;
+}
+
+#home_block4 a{
+	color: #fed503;
+}
+
+#home_block5 h3{
+	color: #0154a6;
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+#home_block6{
+	margin-top: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-top: 1px solid #e6e6e6;
+	background-color: #f5f5f5;
+}
+
+#home_block5 h4, #home_block6 h4, #home_block7 h4{
+	color: #666666;
+	font-family: Arial;
+	font-size: 17px;
+	font-weight: normal;
+	text-align: center;
+}
+
+#home_block6 a{
+	color: #0052a9;
+	font-family: Lato;
+	text-align: center;
+	font-weight: 600;
+	font-size: 17px;
+}
+
+#home_block6 br{
+	display: none;
+}
+
+#home_block6 h5, #home_block6 .one_fourth p, #team h5, #team .one_fourth p {
+	margin-top: 0;
+	padding-top: 15px;
+	background-color: #0154a6;
+	color: #fff;
+	display: block;
+	width: 200px;
+	margin-left: 0;
+}
+
+#home_block6 h5_christchurch, #home_block6 .one_fourth p_christchurch, #team h5_christchurch, #team .one_fourth p_christchurch {
+	margin-top: 0;
+	padding-top: 15px;
+	background-color: #f0103e;
+	color: #fff;
+	display: block;
+	width: 200px;
+	margin-left: 0;
+        font-size: 16px;
+}
+
+
+
+#home_block6 .one_fourth p, #team .one_fourth p{
+	display: none;
+}
+#home_block6 .one_fourth p.p_director, #team .one_fourth p.p_director {
+	padding-bottom: 10px;
+	padding-top: 0px;
+	text-align: center;
+	display: block;
+}
+#home_block6 .one_fourth p.p_director_christchurch, #team .one_fourth p.p_director_christchurch {
+	padding-bottom: 10px;
+	padding-top: 0px;
+	text-align: center;
+	display: block;
+        background-color: #f0103e;
+}
+
+
+#home_block7{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#home_block8{
+	clear:both;
+	background: #202020;
+}
+
+#home_block8 p{
+	margin-bottom: 0;
+}
+
+.su-carousel-slide{
+	width: 25%;
+}
+
+.su-carousel .su-carousel-slide img{
+	border: 0 !important;
+}
+.su-carousel .su-carousel-next, .su-carousel .su-carousel-prev{
+	top: 140px !important;
+}
+
+.su-carousel .su-carousel-prev{
+	right: 50px !important;
+}
+
+.subtitle {
+  margin: 0 0 2em 0;
+}
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy span.orange_span:before,
+.fancy span.orange_span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 2px solid #ffd700;
+  top: 0;
+  width: 200px;
+}
+.fancy span.red_span:before,
+.fancy span.red_span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 2px solid #f0103e;
+  top: 0;
+  width: 200px;
+}
+.fancy span.blue_span:before,
+.fancy span.blue_span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 2px solid #0052a9;
+  top: 0;
+  width: 200px;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.tp-button.orange{
+	text-shadow: 0 0 !important;
+	box-shadow: none;
+	border-radius: 0;
+	letter-spacing: 0;
+	color: #231f20 !important;
+	padding: 15px 30px 15px 20px !important;
+	background: #fed503 url(images/yellow_arrow_big.png) right center no-repeat;
+}
+
+.tp-button.orange:hover{
+	background: #fed503 url(images/yellow_arrow_big.png) right center no-repeat;
+	box-shadow: none;	
+}
+
+.footer{
+	display: none;
+}
+
+.copyright_info{
+	background: none #202020;
+}
+
+.copyright_info p{
+	text-align: center;
+}
+
+.copyright_info p a{
+	color: #d6d6d6;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+}
+.copyright_info p a:hover{
+	color: #fff;
+}
+.copyright_info p a:before{
+	content: "";
+}
+
+.copyright_info .widget_custom_post_widget{
+	margin-bottom: 0;
+}
+
+#addr_chr, #addr_wel{
+	display: block;
+}
+
+#head_city_maps h3 {
+	font-family: "Open Sans",sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    
+    text-align: center;
+}
+
+#h_auk {
+	padding: 10px 30px;
+	background-color: #0052a9;
+    color: #fff;
+    font-family: "Open Sans",sans-serif;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#h_chr {
+	padding: 10px 30px;
+	background-color: #f0103e;
+    color: #fff;
+    font-family: "Open Sans",sans-serif;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+#h_wel {
+	padding: 10px 30px;
+	background-color: #FCD42E;
+    color: #000;
+    font-family: "Open Sans",sans-serif;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#head_city_maps .one_third{
+	margin-right: 1%;
+}
+#head_city_maps .one_third h3{
+	background-color: #0052a9;
+    color: #fff;
+    font-family: "Open Sans",sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 30px;
+    display: inline;
+    float: right;
+    cursor: pointer;
+}
+
+#one_third_second h3 {
+	background-color: #f0103e !important;
+	text-align: center;
+}
+#head_city_maps .last h3{
+	background-color: #FCD42E;
+	color: #000;
+	float: left;
+}
+
+.aucklandteam { width: 170px; height: 30px; background-color: #0052A9; color: #fff;background-position: top left; background-repeat: no-repeat; padding: 215px 15px 5px; }
+
+.aucklandteam a { color: #fff; text-decoration: none; cursor: pointer; font-size: 16px; font-weight: 600; }
+
+.wellingtonteam { width: 170px; height: 30px; background-color: #FCD42E; color: #fff;background-position: top left; background-repeat: no-repeat; padding: 215px 15px 5px; }
+
+.wellingtonteam a { color: #fff; text-decoration: none; cursor: pointer; font-size: 16px; font-weight: 600; }
+
+.christchurchteam { width: 170px; height: 30px; background-color: #F0103E; color: #fff;background-position: top left; background-repeat: no-repeat; padding: 215px 15px 5px; }
+
+.christchurchteam a { color: #fff; text-decoration: none; cursor: pointer; font-size: 16px; font-weight: 600; }
+
+#one.aucklandteam { background-image: url('http://cuesko.co.nz/wp-content/uploads/John-GilesFormal.png');  }
+#one.aucklandteam:hover { background-image: url('http://cuesko.co.nz/wp-content/uploads/John-GilesInformal.png'); }
+
+#two.aucklandteam { background-image: url('http://cuesko.co.nz/wp-content/uploads/Greg-CutfieldFormal.png');  }
+#two.aucklandteam:hover { background-image: url('http://cuesko.co.nz/wp-content/uploads/Greg-CutfieldInformal.png'); }
+
+#three.aucklandteam { background-image: url('http://cuesko.co.nz/wp-content/uploads/Vince-BaldwinFormal.png');  }
+#three.aucklandteam:hover { background-image: url('http://cuesko.co.nz/wp-content/uploads/Vince-BaldwinInformal.png'); }
+
+#four.aucklandteam { background-image: url('http://cuesko.co.nz/wp-content/uploads/Corne-Vermaak-BW-1.png');  }
+#four.aucklandteam:hover { background-image: url('http://cuesko.co.nz/wp-content/uploads/Corne-Vermaak-Informal.png'); }
+
+#five.aucklandteam { background-image: url('http://cuesko.co.nz/wp-content/uploads/David-MasonFormal.png');  }
+#five.aucklandteam:hover { background-image: url('http://cuesko.co.nz/wp-content/uploads/David-MasonInformal.png'); }
+
+#six.aucklandteam { background-image: url('http://cuesko.co.nz/wp-content/uploads/Mathi-PeethamparamFormal.png');  }
+#six.aucklandteam:hover { background-image: url('http://cuesko.co.nz/wp-content/uploads/Mathi-PeethamparamInformal.png'); }
+
+#seven.aucklandteam { background-image: url('http://cuesko.co.nz/wp-content/uploads/Paul-GalvinFormal.png');  }
+#seven.aucklandteam:hover { background-image: url('http://cuesko.co.nz/wp-content/uploads/Paul-GalvinInformal.png'); }
+
+#one.wellingtonteam { background-image: url('http://cuesko.co.nz/wp-content/uploads/Hugh-MackieFormal.png');  }
+#one.wellingtonteam:hover { background-image: url('http://cuesko.co.nz/wp-content/uploads/Hugh-MackieInformal.png');  }
+
+#one.christchurchteam { background-image: url('http://cuesko.co.nz/wp-content/uploads/Kean-MitchellFormal.png');  }
+#one.christchurchteam:hover { background-image: url('http://cuesko.co.nz/wp-content/uploads/Cuesko_Kean_Mitchell_3214cas.jpg');  }
+
+#two.christchurchteam { background-image: url('http://cuesko.co.nz/wp-content/uploads/Deon-CoetzeeFormal.png');  }
+#two.christchurchteam:hover { background-image: url('http://cuesko.co.nz/wp-content/uploads/Cuesko_Deon_Coetzee_3162_cas.png');  }
+
+#three.christchurchteam { background-image: url('http://cuesko.co.nz/wp-content/uploads/Mark-LyleFormal.png');  }
+#three.christchurchteam:hover { background-image: url('http://cuesko.co.nz/wp-content/uploads/Mark_LyleCas.png');  }
+
+@media only screen and (min-width: 1000px) and (max-width: 1169px){
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 999px){
+
+}
+
+@media only screen and (max-width: 767px){
+	#access select{
+		width: 200px;
+	}
+
+	#trueHeader{
+		height:  auto;
+	}
+
+	#trueHeader .one_fourth{
+		width: 30%;
+	}
+
+	#trueHeader .one_half{
+		
+		position:  relative;
+		right:  10px;
+	}
+
+	#trueHeader #logo:before{
+		content:  "";
+		height: auto;
+	}
+
+	#trueHeader .last{
+		display:  none;
+	}
+
+	.b1170 .container, .b960 .container{
+		padding-left: 10px;
+		padding-right: 10px;
+		width:  90%;
+	}
+
+	#home_block1 h5{
+		margin-left: 10px;
+		margin-right:  10px;
+	}
+	
+	#home_block3{
+		background:  none;
+	}
+	#home_block3_inside{
+		padding-left:  0;
+	}
+
+	#home_block4{
+		height: auto;
+		background:  none;
+
+	}
+
+	#home_block4 p{
+		color:  #888;
+		padding: 0 10px;
+	}
+
+	#home_block5 {
+		display: none;
+	}
+
+	#home_block6 h5, #home_block6 .one_fourth p,  #home_block6 img, #home_block7 img{
+		margin: 0 auto;
+	}
+
+	#home_block7 .one_fifth{
+		text-align: center; 
+	}
+
+	#home_block8 .one_half{
+		width: 48%;
+	}
+}
+
+
+@media only screen and (max-width: 479px){
+
+
+}
